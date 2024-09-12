@@ -8,6 +8,7 @@ h6,
 p {
   margin: 0;
 }
+*{box-sizing: border-box;}
 
 p:last-child {
   margin-bottom: 0;
@@ -33,9 +34,10 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/* 
 .container {
   width: 1280px;
-}
+} */
 
-body {}
+body {background-color: #eaeaea;
+overflow: hidden;}
